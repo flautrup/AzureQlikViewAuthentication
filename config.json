@@ -1,0 +1,8 @@
+ {	
+	clientID: '' ,
+    clientSecret: '',
+    callbackUri: '',
+    resource: '',
+    tenant: ''
+}
+	  
