@@ -1,0 +1,20 @@
+{
+  "name": "azureoauth",
+  "version": "1.0.0",
+  "description": "Node service to authenticate users towards AZure AD using WSFederattion for QlikView",
+  "main": "azure_qlikview_authentication.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fredrik Lautrup",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "cookie-parser": "^1.3.5",
+    "express": "^4.13.0",
+    "jwt-simple": "^0.3.0",
+    "passport": "^0.2.2",
+    "passport-azure-ad": "0.0.5",
+    "qlik-auth": "^1.0.4"
+  }
+}
