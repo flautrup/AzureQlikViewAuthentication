@@ -24,7 +24,7 @@ The code is written using NodeJS and uses the qlik-auth for ticketing and passpo
 
 
 ##Use
-Access the server where you run the node script using http://[host]:port/. You should get redirected to Azure to authenticate and if 
+Access the server where you run the node script using http://[host]:[port]/ . You should get redirected to Azure to authenticate and if 
 successful get redirected back to QlikView and access the system using the e-mail address as the username.
 	
 
