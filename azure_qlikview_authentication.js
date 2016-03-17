@@ -18,7 +18,7 @@ var ticketProfile = {
 
 var app = express();
 
-app.use(bodyParser());
+app.use(bodyParser.urlencoded({ extended : true }));
 app.use(passport.initialize());
 
 var wsfedStrategy = new wsfedsaml2(config.azureConfig, function(profile, done) {
